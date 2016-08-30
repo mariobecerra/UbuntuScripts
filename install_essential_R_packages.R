@@ -20,3 +20,30 @@ install.packages("RJSONIO", repos="http://cran.itam.mx")
 install.packages("caTools", repos="http://cran.itam.mx")
 install.packages("rmarkdown", repos="http://cran.itam.mx")
 install.packages("broom", repos="http://cran.itam.mx")
+
+pks <- c("devtools",
+"dplyr",
+"tidyr",
+"ggplot2",
+"readxl",
+"readr",
+"foreign",
+"stringr",
+"lubridate",
+"shiny",
+"caret",
+"kernlab",
+"randomForest",
+"knitr",
+"xtable",
+"Rcpp",
+"reshape2",
+"RCurl",
+"RJSONIO",
+"caTools",
+"rmarkdown",
+"broom")
+
+a <- unlist(lapply(pks, require, character.only = TRUE))
+
+df_pks <- data.frame(pks = pks, loaded = a)
