@@ -1,3 +1,5 @@
+# Mario Becerra 17 nov 2016
+
 echo "Instalar Java"
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
