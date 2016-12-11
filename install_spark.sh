@@ -9,7 +9,7 @@ echo "Descargar Spark"
 wget http://d3kbcqa49mib13.cloudfront.net/spark-2.0.2-bin-hadoop2.7.tgz --show-progress
 
 tar xzf spark-2.0.2-bin-hadoop2.7.tgz
-mv spark-2.0.2-bin-hadoop2.7 /opt/
+sudo mv spark-2.0.2-bin-hadoop2.7 /opt/
 
 echo "Agregar variables de ambiente"
 echo "export SPARK_HOME=/opt/spark-2.0.2-bin-hadoop2.7" >> $HOME/.bashrc
