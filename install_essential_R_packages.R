@@ -21,6 +21,7 @@ install.packages("caTools", repos="http://cran.itam.mx")
 install.packages("rmarkdown", repos="http://cran.itam.mx")
 install.packages("broom", repos="http://cran.itam.mx")
 install.packages("tidyverse", repos="http://cran.itam.mx")
+install.packages("shinydashboard", repos="http://cran.itam.mx")
 
 pks <- c("devtools",
 "dplyr",
